@@ -135,8 +135,6 @@ function supportsInterface(bytes4 interfaceID) constant returns (bool)
 
 The `supportsInterface` function is documented in [EIP 165](https://github.com/ethereum/EIPs/issues/165), and returns true if the resolver implements the interface specified by the provided 4-byte identifier. An interface identifier consists of the XOR of the function signature hashes of the functions provided by that interface; in the degenerate case of single-function interfaces, it is simply equal to the signature hash of that function. If a resolver returns `true` for `supportsInterface()`, it must implement the functions specified in that interface.
 
-`supportsInterface` must always return true for `0x01ffc9a7`, which is the interface ID of `supportsInterface` itself.
-
  Currently standardized resolver interfaces are specified in the table below.
 
 The following interfaces are defined:
