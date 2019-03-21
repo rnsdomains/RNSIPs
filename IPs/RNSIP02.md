@@ -161,7 +161,7 @@ Clients resolving the `addr` record MUST check for a zero-return value, and trea
 Changes to an address MUST trigger the following event:
 
 ```
-event AddrChanged(bytes32 indexed node, address a);
+event AddrChanged(bytes32 indexed node, address addr);
 ```
 # Appendix A: Registry Implementation
 
