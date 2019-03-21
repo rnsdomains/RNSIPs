@@ -27,12 +27,9 @@ For RNS implementers, RNSIPs are a convenient way to track the progress of their
 
 There are three types of RNSIP:
 
--	A **Standard Track RNSIP** describes any change that affects most or all RNS implementation, such as a change to the network protocol, a change in block or transaction validity rules, or any chance or addition that affects the interoperability of applications using RNS. Furthermore Standard RNSIPs can be broken down into the following categories.
-	* **CORE** - CORE, consensus related
-	* **Node** - Related to node manager interfaces, such as RPC
-	* **Net** - related to p2p networking
+-	A **Standard Track RNSIP** describes any change that affects most or all RNS implementation, such as a change to the protocol, or any chance or addition that affects the interoperability of applications using RNS. Furthermore Standard RNSIPs can be broken down into the following categories.
+	* **CORE** - CORE, smart contracts related
 	* **UI** - User Interface
-	* **2nd** - 2nd layer protocols, such as off-chain payment channels
 	* **DApp** - Dapp application interfaces
 - An **Informational RNSIP** describes a RNS design issue, or provides general guidelines or information to the RNS community, but does not propose a new feature. Informational RNSIPs do not necessarily represent a RNS community consensus or recommendation, so users and implementors are free to ignore Informational RNSIPs or follow their advice.
 - A **Process RNSIP** describes a process surrounding RNS, or proposes a change to (or an event in) a process. Process RNSIPs are like Standards Track RNSIPs but apply to areas other than the RNS protocol itself. They may propose an implementation, but not to RNS's codebase; they often require community consensus; unlike Informational RNSIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in RNS development. Any meta-RNS is also considered a Process RNS.
