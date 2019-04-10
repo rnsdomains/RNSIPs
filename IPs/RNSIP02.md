@@ -13,11 +13,11 @@
 
 # **Abstract**
 
-The current RNSIP presents Registry and Resolver architecture. These are based on Ethereum Name Service (ENS). Registry is the contract that handles the mapping between domain name and its owner. Each Registry entry references to a Resolver which handles the resolution between name domains and resources. The Resolver is an interface, a Public Resolver contract is provided by RSK and a user can implement their own Resolver contract.
+The current RNSIP presents Registry and Resolver architecture. These are based on Ethereum Name Service (ENS). Registry is the contract that handles the mapping between domain name and its owner. Each Registry entry references to a Resolver which handles the resolution between name domains and resources. The Resolver is an interface, a Public Resolver contract is provided by RIF and a user can implement their own Resolver contract.
 
 # Motivation
 
-RSK Name Service (RNS) allows users more convenient ways to handle addresses. As DNS resolves IPs and URLs, RNS does the same with addresses and resources.
+RIF Name Service (RNS) allows users more convenient ways to handle addresses. As DNS resolves IPs and URLs, RNS does the same with addresses and resources.
 
 Existing [specifications](https://github.com/ethereum/wiki/wiki/Registrar-ABI) and [implementations](https://ethereum.gitbooks.io/frontier-guide/content/registrar_services.html) for name resolution in Ethereum provide basic functionality, but suffer several shortcomings that will significantly limit their long-term usefulness:
 - A single global namespace for all names with a single 'centralized' resolver.
