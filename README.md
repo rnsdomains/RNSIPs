@@ -1,6 +1,6 @@
 # RNSIPs
 
-RSK Name Service Improvement Proposals
+RIF Name Service Improvement Proposals
 
 ## RNSIP status terms
 * **Draft** - an RNSIP that is open for consideration
