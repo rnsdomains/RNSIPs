@@ -13,7 +13,7 @@
 ## What is a RNSIP?
 
 
-RNSIP stands for RSK Name Service Improvement Proposal. A RNSIP is a design document providing information to the RNS community, or describing a new feature for RNS or its processes or environment. The RNSIP should provide a consise technical specification of the feature and a rationale for the feature. 
+RNSIP stands for RIF Name Service Improvement Proposal. A RNSIP is a design document providing information to the RNS community, or describing a new feature for RNS or its processes or environment. The RNSIP should provide a consise technical specification of the feature and a rationale for the feature. 
 
 
 ## RNSIP Rational
