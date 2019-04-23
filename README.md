@@ -36,10 +36,12 @@ RIF Name Service Improvement Proposals
 |----------|----------------------------------------------------------------------------------|-----------|-----------|----------|----------|---|----------|
 | 1        | [RNSIP Purpose and Guidelines](IPs/RNSIP01.md)                                   | 27-SEP-18 | JL        |          |          |   | Adopted  |
 | 2        | [Registry and Resolver of RNS](IPs/RNSIP02.md)                                   | 28-SEP-18 | JL        | Usa      | 2nd      | 2 | Adopted  |
+| 3 | [Multi-chain Resolver](IPs/RNSIP03.md) | 23-APR-19 | IO, AB | Usa | 2nd | 1 | Draft |
 
 # Author Index
 | Initials | Full name                    | Email |
 | -------- | :----------------------------| :-----|
 | JL       | Julian Len                   | julian@rsk.co |
 | SDL      | Sergio Demian Lerner         | sergio@rsk.co |
-
+| IO | Ilan Olkies | ilan@iovlabs.org |
+| AB | Alejadro Banzas        | ab@iovlabs.org |
