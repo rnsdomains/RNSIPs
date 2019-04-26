@@ -113,7 +113,7 @@ To keep compatibility with RNSIP02:
 
 To be RNSIP03:
 
-1. It should implement `chianAddr`:
+1. It should implement `chainAddr`:
 
     ```
     function chainAddr (bytes32 node, bytes4 chain) public view returns (string memory) {
