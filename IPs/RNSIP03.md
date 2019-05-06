@@ -9,7 +9,7 @@ Multi-chain Resolver
 | **Purpose** | Usa |
 | **Layer** | 2nd |
 | **Complexity** | 1 |
-| **Status** | Draft |
+| **Status** | Accepted |
 
 ## Abstract
 
