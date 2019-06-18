@@ -3,7 +3,7 @@ Multi-chain Resolver
 
 | RNSIP | 03 |
 | - | - |
-| **Title** | Multi-chain Resolver |
+| **Title** | Multi-crypto Resolver |
 | **Created** |	23-APR-19 |
 | **Author** | IO, AB |
 | **Purpose** | Usa |
@@ -13,7 +13,7 @@ Multi-chain Resolver
 
 ## Abstract
 
-The current RNSIP describes a protocol that different resolver implementations can adhere to in order to facilitate consistent multi-chain resolutions, keeping the address-resolution data active and accessible.
+The current RNSIP describes a protocol that different resolver implementations can adhere to in order to facilitate consistent multi-crypto resolutions, keeping the address-resolution data active and accessible.
 
 ## Motivation
 
@@ -31,7 +31,7 @@ Today there are more than 800 cryptocurrencies in circulation<sup>[1](https://co
 
 Each chain has a hexadecimal value identifier, defined in [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md).
 
-Resolvers wishing to support multi-chain address resources must provide the following function:
+Resolvers wishing to support multi-crypto address resources must provide the following function:
 
 ```
 function chainAddr(bytes32 node, bytes4 chain) constant returns (string);
@@ -57,7 +57,7 @@ event ChainAddrChanged(bytes32 indexed node, bytes4 chain, string addr);
 
 According to [RNSIP02](https://github.com/rnsdomains/RNSIPs/blob/master/IPs/RNSIP02.md), any resolver must implement `supportsInterface` method and throw on fallback function. If it implements `addr` interface, it must emit `AddrChanged` event.
 
-Public Resolver has one resource to keep compatibility with: `addr`. For any name using the Public Resolver that is already resolving `addr`, should keep this value accessible from the Multi Chain Resolver. When the owner decides to change the value of any of these two resources, the new value is stored and replaces the value in the Public Resolver.
+Public Resolver has one resource to keep compatibility with: `addr`. For any name using the Public Resolver that is already resolving `addr`, should keep this value accessible from the Multi-crypto Resolver. When the owner decides to change the value of any of these two resources, the new value is stored and replaces the value in the Public Resolver.
 
 ## Implementation
 
@@ -134,3 +134,8 @@ To be RNSIP03:
         }
     }
     ```
+
+## Adoption
+
+Multi-crypto resolver deployed on [0x99a12be4C89CbF6CFD11d1F2c029904a7B644368](https://explorer.rsk.co/address/0x99a12be4c89cbf6cfd11d1f2c029904a7b644368).
+
